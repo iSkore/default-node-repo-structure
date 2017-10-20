@@ -4,6 +4,7 @@
     "description": "Default node package with basic config files",
     "main": "index.js",
     "scripts": {
+        "dev": "babel-node index.js",
         "test": "mocha --trace-warnings",
         "preversion": "npm test",
         "docs": "jsdoc .",
