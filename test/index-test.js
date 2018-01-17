@@ -1,6 +1,6 @@
 /** ****************************************************************************************************
  * File: index-test.js
- * Project: default-node-package
+ * Project: default-node-repo-structure
  * @author Nick Soggin <iSkore@users.noreply.github.com> on 19-Oct-2017
  *******************************************************************************************************/
 'use strict';
@@ -14,10 +14,10 @@ const
  * @constructor
  * @example tests
  */
-describe( 'default-node-package', () => {
+describe( 'default-node-repo-structure', () => {
     it( 'should do nothing',
         () => {
-            expect().to.eql();
+            expect( 0 ).to.eql( 0 );
         }
     );
 } );

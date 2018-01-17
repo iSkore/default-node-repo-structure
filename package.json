@@ -1,5 +1,5 @@
 {
-    "name": "default-node-package",
+    "name": "default-node-repo-structure",
     "version": "0.0.0",
     "description": "Default node package with basic config files",
     "main": "index.js",
@@ -7,12 +7,11 @@
         "dev": "babel-node index.js",
         "test": "mocha --trace-warnings",
         "preversion": "npm test",
-        "docs": "jsdoc .",
-        "readme": "jsdoc2md ./*.js ./**/*.js > README.md"
+        "docs": "jsdoc ./*.js ./**/*.js -R ./README.md -d docs/"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/iSkore/default-node-package.git"
+        "url": "git+https://github.com/iSkore/default-node-repo-structure.git"
     },
     "keywords": [
         "basic",
@@ -21,13 +20,13 @@
     "author": "Parellin Technologies LLC <nick@parellin.com> (https://parellin.com)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/iSkore/default-node-package/issues"
+        "url": "https://github.com/iSkore/default-node-repo-structure/issues"
     },
-    "homepage": "https://github.com/iSkore/default-node-package#readme",
+    "homepage": "https://github.com/iSkore/default-node-repo-structure#readme",
     "dependencies": {},
     "devDependencies": {
         "chai": "latest",
-        "jsdoc-to-markdown": "^3.0.0",
+        "jsdoc-to-markdown": "latest",
         "mocha": "latest"
     },
     "publishConfig": {

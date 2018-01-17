@@ -1,6 +1,6 @@
 /** ****************************************************************************************************
  * File: index.js
- * Project: default-node-package
+ * Project: default-node-repo-structure
  * @author Nick Soggin <iSkore@users.noreply.github.com> on 19-Oct-2017
  *******************************************************************************************************/
 'use strict';

@@ -1,6 +1,6 @@
-<!DOCTYPE html><html><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><style>*{-webkit-tap-highlight-color:rgba(0,0,0,0);}html{-webkit-text-size-adjust:none;}body{font-family:-apple-system,Helvetica,Arial,sans-serif;margin:0;padding:20px;color:#333;word-wrap:break-word;}h1,h2,h3,h4,h5,h6{line-height:1.1;}hr{background-color:#ddd;border:0;height: 1px;margin: 15px 0;}</style><style>.blockit{margin:0;padding:10px;font-size:100%;word-break:normal;border-width:2px;border-style:solid;border-color:#FF0000;background-color:rgba(250,100,0,0.7);}</style><body><script>function copy(e){var tmp = document.createElement("input");tmp.id="123";document.body.append(tmp);tmp.value = document.getElementById(e).innerHTML;tmp = document.getElementById("123");tmp.select();document.execCommand("copy");tmp.remove();}</script><h1><pre><code>.babelrc</code> <button onclick="copy('.babelrc');">COPY</button></pre></h1><pre class="blockit"><code class="code-cell" id=".babelrc">{
+<!DOCTYPE html><html><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><style>*{-webkit-tap-highlight-color:rgba(0,0,0,0);}html{-webkit-text-size-adjust:none;}body{font-family:-apple-system,Helvetica,Arial,sans-serif;margin:0;padding:20px;color:#333;word-wrap:break-word;}h1,h2,h3,h4,h5,h6{line-height:1.1;}hr{background-color:#ddd;border:0;height: 1px;margin: 15px 0;}</style><style>.blockit{margin:0;padding:10px;font-size:100%;word-break:normal;border-width:2px;border-style:solid;border-color:#FF0000;background-color:rgba(250,100,0,0.7);}</style><body><script>function copy(e){var tmp = document.createElement("input");tmp.id="123";document.body.append(tmp);tmp.value = document.getElementById(e).innerHTML;tmp = document.getElementById("123");tmp.select();document.execCommand("copy");tmp.remove();}</script><h1><a name="top">default-node-repo-structure</a></h1><ul><li><a href="#.babelrc">.babelrc</a></li><li><a href="#.editorconfig">.editorconfig</a></li><li><a href="#.gitignore">.gitignore</a></li><li><a href="#.gitmessage">.github/.gitmessage</a></li><li><a href="#.jshintrc">.jshintrc</a></li><li><a href="#.npmrc">.npmrc</a></li><li><a href="#COMMIT_GUIDELINES.md">.github/COMMIT_GUIDELINES.md</a></li><li><a href="#ISSUE_TEMPLATE.md">.github/ISSUE_TEMPLATE.md</a></li><li><a href="#PULL_REQUEST_TEMPLATE.md">.github/PULL_REQUEST_TEMPLATE.md</a></li><li><a href="#index.js">index.js</a></li><li><a href="#package.json">package.json</a></li></ul><h1><pre><code><a name=".babelrc" href="#top">.babelrc</a></code></pre></h1><button onclick="copy('.babelrc');">COPY</button><pre class="blockit"><code class="code-cell" id=".babelrc">{
     "presets": [ "env" ]
-}</code></pre><h1><pre><code>.editorconfig</code> <button onclick="copy('.editorconfig');">COPY</button></pre></h1><pre class="blockit"><code class="code-cell" id=".editorconfig">root = true
+}</code></pre><h1><pre><code><a name=".editorconfig" href="#top">.editorconfig</a></code></pre></h1><button onclick="copy('.editorconfig');">COPY</button><pre class="blockit"><code class="code-cell" id=".editorconfig">root = true
 
 [*]
 indent_style = space
@@ -10,7 +10,7 @@ trim_trailing_whitespace = true
 insert_final_newline = false
 
 [*.md]
-trim_trailing_whitespace = false</code></pre><h1><pre><code>.gitignore</code> <button onclick="copy('.gitignore');">COPY</button></pre></h1><pre class="blockit"><code class="code-cell" id=".gitignore"># code coverage
+trim_trailing_whitespace = false</code></pre><h1><pre><code><a name=".gitignore" href="#top">.gitignore</a></code></pre></h1><button onclick="copy('.gitignore');">COPY</button><pre class="blockit"><code class="code-cell" id=".gitignore"># code coverage
 coverage
 lib-cov
 test-results.xml
@@ -503,7 +503,18 @@ paket-files/
 # JetBrains Rider
 *.sln.iml
 
-</code></pre><h1><pre><code>.jshintrc</code> <button onclick="copy('.jshintrc');">COPY</button></pre></h1><pre class="blockit"><code class="code-cell" id=".jshintrc">{
+</code></pre><h1><pre><code><a name=".gitmessage" href="#top">.github/.gitmessage</a></code></pre></h1><button onclick="copy('.gitmessage');">COPY</button><pre class="blockit"><code class="code-cell" id=".gitmessage">#------------------------------MAX LENGTH------------------------------|
+# all lower case summary
+
+# description of primary changes
+# - added:
+# - updated:
+# - deleted:
+
+# Fixes: issue#xxx
+# Refs:
+#
+#</code></pre><h1><pre><code><a name=".jshintrc" href="#top">.jshintrc</a></code></pre></h1><button onclick="copy('.jshintrc');">COPY</button><pre class="blockit"><code class="code-cell" id=".jshintrc">{
     "mocha": true,
     "freeze": true,
     "bitwise": false,
@@ -535,10 +546,98 @@ paket-files/
     "forin": false,
     "shadow": true,
     "-W018": false
-}</code></pre><h1><pre><code>.npmrc</code> <button onclick="copy('.npmrc');">COPY</button></pre></h1><pre class="blockit"><code class="code-cell" id=".npmrc">registry=https://registry.npmjs.org
-</code></pre><h1><pre><code>index.js</code> <button onclick="copy('index.js');">COPY</button></pre></h1><pre class="blockit"><code class="code-cell" id="index.js">/** ****************************************************************************************************
+}</code></pre><h1><pre><code><a name=".npmrc" href="#top">.npmrc</a></code></pre></h1><button onclick="copy('.npmrc');">COPY</button><pre class="blockit"><code class="code-cell" id=".npmrc">registry=https://registry.npmjs.org
+</code></pre><h1><pre><code><a name="COMMIT_GUIDELINES.md" href="#top">.github/COMMIT_GUIDELINES.md</a></code></pre></h1><button onclick="copy('COMMIT_GUIDELINES.md');">COPY</button><pre class="blockit"><code class="code-cell" id="COMMIT_GUIDELINES.md">Commit Messages must be in the following standard:
+
+1) contain a short description of the change (preferably 50 characters or less, and no more than 72 characters)
+    - be entirely in lowercase with the exception of proper nouns, acronyms, function/variable names
+2) followed by a new line with no text
+3) a description of additions, updates, deletions, etc.
+4) followed by a new line with no text
+5) reference to the issues fixed by this commit and references to relevant material to the commit
+    - Denoted with `Fixes:`, `Refs:`, etc.
+    - `Fixes` must include an issue number - tagged by doing: `issue#123`
+
+Example:
+```
+all lower case summary
+
+Description of primary changes
+- Added new feature
+- Edited old feature
+- Removed obsolete feature
+
+Fixes: issue#xx
+Refs: https://guides.github.com/
+```
+
+Git Commit Template:
+
+1) cd into repository
+2) add the git commit template to your git configuration
+    - `git config --global commit.template ./.github/.gitmessage`
+3) commit something with `git commit` and the template message will appear
+4) complete the message and push your changes
+
+> lines beginning with `#` are ignored
+> remove `#` to include the line in your message
+ 
+Template:
+```
+#------------------------------MAX LENGTH------------------------------|
+# all lower case summary
+
+# description of primary changes
+# - added:
+# - updated:
+# - deleted:
+
+# Fixes: issue#xxx
+# Refs:
+#
+#
+```</code></pre><h1><pre><code><a name="ISSUE_TEMPLATE.md" href="#top">.github/ISSUE_TEMPLATE.md</a></code></pre></h1><button onclick="copy('ISSUE_TEMPLATE.md');">COPY</button><pre class="blockit"><code class="code-cell" id="ISSUE_TEMPLATE.md"><!--
+Thank you for reporting an issue.
+
+Please fill in as much of the template below as you can.
+
+Version: output of `node -v`
+Platform: output of `uname -a` (UNIX), or version and 32 or 64-bit (Windows)
+Subsystem: if known, please specify affected core module name
+
+If possible, please provide code that demonstrates the problem, keeping it as
+simple and free of external dependencies as possible.
+
+For completed items, change [ ] to [x].
+-->
+
+* **Version**:
+* **Platform**:
+* **Subsystem**:
+
+- [ ] repeatable/reproducible issue
+
+<!-- Enter your issue details below this comment. -->
+
+</code></pre><h1><pre><code><a name="PULL_REQUEST_TEMPLATE.md" href="#top">.github/PULL_REQUEST_TEMPLATE.md</a></code></pre></h1><button onclick="copy('PULL_REQUEST_TEMPLATE.md');">COPY</button><pre class="blockit"><code class="code-cell" id="PULL_REQUEST_TEMPLATE.md"><!--
+Thank you for your pull request. Please provide a description above and review
+the requirements below.
+
+Bug fixes and new features should include tests and relevant documentation.
+-->
+
+##### Checklist
+<!-- Remove items that do not apply. For completed items, change [ ] to [x]. -->
+
+- [ ] `npm run test` passes all available tests
+- [ ] tests and/or benchmarks are included
+- [ ] `npm run docs` compiles documentation if changed or added
+- [ ] commit message follows [commit guidelines](https://github.com/iSkore/default-node-repo-structure/blob/master/.github/COMMIT_GUIDELINES.md)
+
+
+##### Additional Information:</code></pre><h1><pre><code><a name="index.js" href="#top">index.js</a></code></pre></h1><button onclick="copy('index.js');">COPY</button><pre class="blockit"><code class="code-cell" id="index.js">/** ****************************************************************************************************
  * File: index.js
- * Project: default-node-package
+ * Project: default-node-repo-structure
  * @author Nick Soggin <iSkore@users.noreply.github.com> on 19-Oct-2017
  *******************************************************************************************************/
 'use strict';
@@ -554,8 +653,8 @@ class Default
     {
 
     }
-}</code></pre><h1><pre><code>package.json</code> <button onclick="copy('package.json');">COPY</button></pre></h1><pre class="blockit"><code class="code-cell" id="package.json">{
-    "name": "default-node-package",
+}</code></pre><h1><pre><code><a name="package.json" href="#top">package.json</a></code></pre></h1><button onclick="copy('package.json');">COPY</button><pre class="blockit"><code class="code-cell" id="package.json">{
+    "name": "default-node-repo-structure",
     "version": "0.0.0",
     "description": "Default node package with basic config files",
     "main": "index.js",
@@ -563,12 +662,11 @@ class Default
         "dev": "babel-node index.js",
         "test": "mocha --trace-warnings",
         "preversion": "npm test",
-        "docs": "jsdoc .",
-        "readme": "jsdoc2md ./*.js ./**/*.js > README.md"
+        "docs": "jsdoc ./*.js ./**/*.js -R ./README.md -d docs/"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/iSkore/default-node-package.git"
+        "url": "git+https://github.com/iSkore/default-node-repo-structure.git"
     },
     "keywords": [
         "basic",
@@ -577,13 +675,13 @@ class Default
     "author": "Parellin Technologies LLC <nick@parellin.com> (https://parellin.com)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/iSkore/default-node-package/issues"
+        "url": "https://github.com/iSkore/default-node-repo-structure/issues"
     },
-    "homepage": "https://github.com/iSkore/default-node-package#readme",
+    "homepage": "https://github.com/iSkore/default-node-repo-structure#readme",
     "dependencies": {},
     "devDependencies": {
         "chai": "latest",
-        "jsdoc-to-markdown": "^3.0.0",
+        "jsdoc-to-markdown": "latest",
         "mocha": "latest"
     },
     "publishConfig": {
