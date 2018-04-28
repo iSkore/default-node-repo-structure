@@ -12,8 +12,8 @@
  */
 class Default
 {
-    constructor( param )
-    {
-
-    }
+	constructor( param )
+	{
+	
+	}
 }

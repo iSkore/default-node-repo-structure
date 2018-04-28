@@ -10,7 +10,6 @@ clover.xml
 .tags
 .tags1
 *.ss*
-.config
 
 # Node logs
 npm-debug.log*
@@ -35,7 +34,6 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
-package-lock.json
 
 # Optional npm cache directory
 .npm
@@ -46,7 +44,6 @@ package-lock.json
 # Yeoman/bow/&c.
 bower_components/
 build/
-dist/
 
 # Linux ignores
 *~
@@ -491,3 +488,5 @@ paket-files/
 # JetBrains Rider
 *.sln.iml
 
+archive.tar*
+dist/

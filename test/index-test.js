@@ -6,8 +6,8 @@
 'use strict';
 
 const
-    chai     = require( 'chai' ),
-    expect   = chai.expect;
+	chai   = require( 'chai' ),
+	expect = chai.expect;
 
 /**
  * Tests
@@ -15,9 +15,9 @@ const
  * @example tests
  */
 describe( 'default-node-repo-structure', () => {
-    it( 'should do nothing',
-        () => {
-            expect( 0 ).to.eql( 0 );
-        }
-    );
+	it( 'should do nothing',
+		() => {
+			expect( 0 ).to.eql( 0 );
+		}
+	);
 } );

@@ -1,35 +1,39 @@
 {
-    "name": "default-node-repo-structure",
-    "version": "0.0.0",
-    "description": "Default node package with basic config files",
-    "main": "index.js",
-    "scripts": {
-        "dev": "babel-node index.js",
-        "test": "mocha --trace-warnings",
-        "preversion": "npm test",
-        "docs": "jsdoc ./*.js ./**/*.js -R ./README.md -d docs/"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/iSkore/default-node-repo-structure.git"
-    },
-    "keywords": [
-        "basic",
-        "config"
-    ],
-    "author": "Parellin Technologies LLC <nick@parellin.com> (https://parellin.com)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/iSkore/default-node-repo-structure/issues"
-    },
-    "homepage": "https://github.com/iSkore/default-node-repo-structure#readme",
-    "dependencies": {},
-    "devDependencies": {
-        "chai": "latest",
-        "jsdoc-to-markdown": "latest",
-        "mocha": "latest"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org"
-    }
+	"name": "default-node-repo-structure",
+	"version": "0.0.0",
+	"description": "Default node package with basic config files",
+	"main": "index.js",
+	"scripts": {
+		"cleanInstall": "rm -rf node_modules/ package-lock.json && npm i",
+		"dev": "node index.js",
+		"docs": "jsdoc -c jsdocs.js -r",
+		"lint": "eslint .",
+		"preversion": "npm test",
+		"test": "mocha --trace-warnings"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iSkore/default-node-repo-structure.git"
+	},
+	"keywords": [
+		"basic",
+		"config"
+	],
+	"author": "Parellin Technologies LLC <nick@parellin.com> (https://parellin.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/iSkore/default-node-repo-structure/issues"
+	},
+	"homepage": "https://github.com/iSkore/default-node-repo-structure#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"chai": "latest",
+		"chai-as-promised": "latest",
+		"eslint": "latest",
+		"jsdoc-to-markdown": "latest",
+		"mocha": "latest"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org"
+	}
 }
