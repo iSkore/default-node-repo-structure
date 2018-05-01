@@ -4,6 +4,7 @@
 	"description": "Default node package with basic config files",
 	"main": "index.js",
 	"scripts": {
+		"clean": "npm outdated && npm prune",
 		"cleanInstall": "rm -rf node_modules/ package-lock.json && npm i",
 		"dev": "node index.js",
 		"docs": "jsdoc -c jsdocs.js -r",
