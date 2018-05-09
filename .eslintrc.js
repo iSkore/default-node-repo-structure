@@ -34,6 +34,7 @@ module.exports = {
 			{
 				code: 120,
 				tabWidth: 4,
+				ignoreStrings: true,
 				ignoreRegExpLiterals: true
 			}
 		],
