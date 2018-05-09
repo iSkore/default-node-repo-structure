@@ -24,7 +24,12 @@ module.exports = {
 		location: true,
 		window: true,
 		sessionStorage: true,
-		Blob: true
+		localStorage: true,
+		Blob: true,
+		L: true,
+		Materialize: true,
+		navigator: true,
+		alert: true
 	},
 	rules: {
 		indent: [ 2, 'tab' ],
@@ -82,10 +87,11 @@ module.exports = {
 			1,
 			{
 				overrides: {
-					catch: { 'after': false },
-					if: { 'after': false },
-					for: { 'after': false },
-					while: { 'after': false }
+					catch: { after: false },
+					if: { after: false },
+					for: { after: false },
+					while: { after: false },
+					switch: { after: false }
 				}
 			}
 		],
@@ -99,6 +105,7 @@ module.exports = {
 		'new-parens': 1,
 		'no-array-constructor': 1,
 		'no-caller': 1,
+		'no-case-declarations': 'off',
 		'no-class-assign': 1,
 		'no-cond-assign': 1,
 		'no-console': 'off',
