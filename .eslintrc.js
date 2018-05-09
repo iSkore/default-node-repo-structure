@@ -32,7 +32,11 @@ module.exports = {
 		alert: true
 	},
 	rules: {
-		indent: [ 2, 'tab' ],
+		indent: [
+			2,
+			'tab',
+			{ SwitchCase: 1 }
+		],
 		'linebreak-style': [ 2, 'unix' ],
 		'max-len': [
 			2,
